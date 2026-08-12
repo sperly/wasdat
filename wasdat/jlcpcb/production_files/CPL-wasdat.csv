@@ -1,0 +1,20 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1u,C_0603,19.0,-1.5,0.0,bottom
+C2,0.1u,C_0603,38.0,-3.0,180.0,bottom
+C3,0.1u,C_0603,38.0,-12.5,180.0,bottom
+C4,0.1u,C_0603,38.0,-11.0,180.0,bottom
+C5,4.7u,C_0805,13.5,-25.0,0.0,bottom
+C6,1u,C_0603,19.0,-13.5,0.0,bottom
+F1,Polyfuse_Small,R_0805,11.0,-14.5,0.0,bottom
+H1,Left,PinHeader_2x13_P2.00mm_Vertical,5.0,-17.0,0.0,top
+H2,Right,PinHeader_2x13_P2.00mm_Vertical,50.5,-17.0,0.0,top
+R1,22,R_0603,11.0,-11.25,0.0,bottom
+R2,22,R_0603,11.0,-12.75,0.0,bottom
+R3,10k,R_0603,19.0,-11.5,180.0,bottom
+R4,10k,R_0603,38.0,-1.5,180.0,bottom
+R5,1k,R_0603,45.5,-11.5,180.0,top
+R6,1k,R_0603,45.5,-13.0,180.0,top
+R7,1k,R_0603,45.5,-14.5,180.0,top
+U1,ATmega32U4,ATMEGA32U4,29.0,-7.0,90.0,bottom
+U2,74HC138,SOIC-16_3.9x9.9mm_P1.27mm,14.0,-5.5,180.0,top
+X1,16mhz,Resonator_SMD_muRata_CSTNExxV-3Pin-p1.2,19.0,-6.5,270.0,bottom
