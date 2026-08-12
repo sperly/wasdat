@@ -4496,6 +4496,26 @@
 		)
 		(uuid "fa9d4e60-6a7b-4ae3-84e8-bfad2ebce681")
 	)
+	(label "USB_D_M"
+		(at 71.12 88.9 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "215463f0-eee8-47d2-8f93-5a4e3157128a")
+	)
+	(label "USB_D_P"
+		(at 71.12 86.36 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccd02cbd-27f0-43e0-9e62-edf3eee9ee31")
+	)
 	(global_label "row4"
 		(shape input)
 		(at 143.51 132.08 0)
