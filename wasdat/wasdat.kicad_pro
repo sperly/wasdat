@@ -75,27 +75,44 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1524,
+          "via_gap": 0.1524,
+          "width": 0.1524
         }
       ],
       "drc_exclusions": [
         [
-          "starved_thermal|14770000|22040000|00000000-0000-0000-0000-00005cacdd65|1f5b5a72-2ba5-4ac6-b227-bfdaa54f6552|B.Cu",
+          "starved_thermal|15290800|20205400|00000000-0000-0000-0000-00005cacdd65|fb8702e0-c39b-4b9d-9fd8-2c5293e22248|B.Cu",
           ""
         ],
         [
-          "starved_thermal|18212500|13500000|00000000-0000-0000-0000-00005cacdd65|0447c3de-0aa4-4124-9cac-f7d17a6c2032|B.Cu",
+          "starved_thermal|4013200|23006800|00000000-0000-0000-0000-00005cacdd65|ae0aad4f-dd71-4447-abaf-7e549119c2b2|B.Cu",
           ""
         ],
         [
-          "starved_thermal|4000000|23000000|00000000-0000-0000-0000-00005cacdd65|0506aeca-c23a-4482-b07a-fc47f6dc9dff|B.Cu",
+          "starved_thermal|4013200|23006800|00000000-0000-0000-0000-00005cacdd68|ae0aad4f-dd71-4447-abaf-7e549119c2b2|F.Cu",
           ""
         ],
         [
-          "starved_thermal|4000000|23000000|00000000-0000-0000-0000-00005cacdd68|0506aeca-c23a-4482-b07a-fc47f6dc9dff|F.Cu",
+          "starved_thermal|4013200|23006800|c1a0c063-42d0-4ba4-a0ae-6a01e23f0457|ae0aad4f-dd71-4447-abaf-7e549119c2b2|In2.Cu",
           ""
         ],
         [
-          "starved_thermal|6000000|11000000|00000000-0000-0000-0000-00005cacdd68|be642c88-36d7-4d69-997c-2e3e23b3f987|F.Cu",
+          "starved_thermal|4013200|7006800|00000000-0000-0000-0000-00005cacdd65|6678334d-bf04-412a-b5b2-ec53f870c306|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|4013200|9006800|00000000-0000-0000-0000-00005cacdd65|cacca133-e980-402c-b1c2-121968901aa3|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|6013200|11006800|00000000-0000-0000-0000-00005cacdd68|0684f293-add1-421f-b86c-88e88d0d838a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|6013200|11006800|c1a0c063-42d0-4ba4-a0ae-6a01e23f0457|0684f293-add1-421f-b86c-88e88d0d838a|In2.Cu",
           ""
         ]
       ],
@@ -291,7 +308,13 @@
       "mpn": "",
       "sch_revision": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "topLayer": 0
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
@@ -605,7 +628,7 @@
       "netlist": "wasdat.net",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "wasdat.step",
       "vmrl": "",
       "vrml": ""
     },
@@ -753,7 +776,7 @@
         "uuid": "1e6e7b8c-7a66-4e31-a433-c3418c354b13"
       }
     ],
-    "used_designators": "#PWR5,Y1-2",
+    "used_designators": "R8-9,C7-8,U3,#PWR5,#PWR7,#PWR9,#PWR116,Y1-2",
     "variants": []
   },
   "sheets": [
